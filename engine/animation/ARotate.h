@@ -21,7 +21,7 @@ private:
             return;
         }
 
-        // TODO: implement (lessons 8)
+        obj->rotate(_rotationValue*dprogress());
     }
 
 public:

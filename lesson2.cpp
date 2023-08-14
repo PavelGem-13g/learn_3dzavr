@@ -16,6 +16,7 @@ public:
     void start() override {
         // translate cube
         cube->translate(Vec3D(0,0,5));
+        setGlEnable(true);
     }
 
     void update() override {

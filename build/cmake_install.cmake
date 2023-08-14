@@ -1,4 +1,4 @@
-# Install script for directory: /Users/pavel/Temp/learn_3dzavr-master
+# Install script for directory: /Users/pavel/Git/learn_3dzavr
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -45,5 +45,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/Users/pavel/Temp/learn_3dzavr-master/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/Users/pavel/Git/learn_3dzavr/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

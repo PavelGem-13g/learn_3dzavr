@@ -1,3 +1,3 @@
-/Users/pavel/Temp/learn_3dzavr-master/build/CMakeFiles/learn_3dzavr.dir
-/Users/pavel/Temp/learn_3dzavr-master/build/CMakeFiles/edit_cache.dir
-/Users/pavel/Temp/learn_3dzavr-master/build/CMakeFiles/rebuild_cache.dir
+/Users/pavel/Git/learn_3dzavr/build/CMakeFiles/learn_3dzavr.dir
+/Users/pavel/Git/learn_3dzavr/build/CMakeFiles/edit_cache.dir
+/Users/pavel/Git/learn_3dzavr/build/CMakeFiles/rebuild_cache.dir

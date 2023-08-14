@@ -5,7 +5,6 @@
 #include <utility>
 #include <cmath>
 
-#define GL_SILENCE_DEPRECATION
 #include <SFML/OpenGL.hpp>
 
 #if defined(WIN32) || defined(_WIN32) || defined(__WIN32) && !defined(__CYGWIN__)
@@ -112,7 +111,7 @@ void Screen::drawTriangle(const Triangle &triangle) {
     // Раскомментируйте эту строку для отображения границ треугольников
     //           |
     //          \/
-    //_window->draw(lines, 4, sf::LineStrip);
+    _window->draw(lines, 4, sf::LineStrip);
 
     _window->draw(tris, 3, sf::Triangles);
 }

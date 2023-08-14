@@ -8,7 +8,7 @@ set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}")
 add_executable(${CMAKE_PROJECT_NAME}
         # custom files:
         #test_scene.cpp
-        lesson1.cpp
+        lesson4.cpp
         # 3d engine:
         engine/Consts.h
         engine/math/Vec4D.h
@@ -99,7 +99,7 @@ else()
     set(SFML_STATIC_LIBRARIES TRUE)
 endif()
 
-find_package(SFML 2.6.0 COMPONENTS graphics audio REQUIRED)
+find_package(SFML 2.5.1 COMPONENTS graphics audio REQUIRED)
 
 if (SFML_FOUND)
     include_directories(${SFML_INCLUDE_DIR})

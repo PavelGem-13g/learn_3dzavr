@@ -24,7 +24,6 @@ public:
     }
 
     void update() override {
-
         auto gjk = cube1->checkGJKCollision(cube2);
         if(gjk.first) {
             cube1->setColor(sf::Color(255, 181, 181, 255));

@@ -9,13 +9,14 @@ private:
     double rotationSpeed = 1;
 
     // load monkey to the scene
-    std::shared_ptr<RigidBody> monkey = world->loadBody(ObjectNameTag("monkey"), "obj/monkey.obj");
+    std::shared_ptr<RigidBody> monkey = world->loadBody(ObjectNameTag("monkey"), "obj/shotgun.obj");
 public:
     Lesson3() = default;
 
     void start() override {
         // translate monkey
         monkey->translate(Vec3D(0,0,3));
+        setGlEnable(true);
     }
 
     void update() override {

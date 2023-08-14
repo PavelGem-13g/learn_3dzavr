@@ -18,6 +18,7 @@ public:
 
         // make mouse cursor invisible
         screen->setMouseCursorVisible(false);
+        setGlEnable(true);
     }
 
     void update() override {

@@ -132,19 +132,33 @@ std::vector<std::shared_ptr<Mesh>> ResourceManager::loadObjects(const std::strin
 
         char junk;
         if (line[0] == 'm') {
-            // TODO: implement (lesson 3)
+            int color[4];
+            std::string matName;
+            s >> junk >> matName >> color[0] >> color[1] >> color[2] >> color[3];
+            maters.insert({matName, sf::Color(color[0], color[1], color[2], color[3])});
         }
         if (line[0] == 'v') {
-            // TODO: implement (lesson 3)
+            double x, y, z;
+            s >> junk >> x >> y >> z;
+            verts.emplace_back(x, y, z, 1);
         }
         if (line[0] == 'f') {
-            // TODO: implement (lesson 3)
+            int v[3];
+            s >> junk >> v[0] >> v[1] >> v[2];
+            tris.emplace_back(verts[v[0]-1], verts[v[1]-1], verts[v[2]-1], currentColor);
         }
         if (line[0] == 'g') {
-            // TODO: implement (lesson 3)
+            std::string matInfo;
+            s >> junk >> matInfo;
+
+            std::string colorName = matInfo.substr(matInfo.size()-3, 3);
+            currentColor = maters[colorName];
         }
         if (line[0] == 'o') {
-            // TODO: implement (lesson 3)
+            if(!tris.empty()){
+                objects.emplace_back(std::make_shared<Mesh>(ObjectNameTag(filename+"temp_obj"+std::to_string(objects.size())), tris));
+                 tris.clear();
+            }
         }
     }
 

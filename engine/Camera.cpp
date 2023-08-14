@@ -22,12 +22,47 @@ std::vector<Triangle> Camera::project(std::shared_ptr<Mesh> mesh) {
     Matrix4x4 M = mesh->model();
     Matrix4x4 V = Matrix4x4::View(left(), up(), lookAt(), position());
 
+    std::vector<Triangle> clippedTriangles, tempBuffer;
     for (auto &t : mesh->triangles()) {
-        Triangle projected;
+        Triangle modelTriangle = t*M;
 
-        // TODO: implement (lessons 2, 3, 4)
+        double dot = modelTriangle.norm().dot((position() - Vec3D (modelTriangle[0])).normalized());
 
-        _triangles.emplace_back(projected);
+        if(dot < 0){
+            continue;
+        }
+
+        Triangle modelViewTriangle = modelTriangle*V;
+
+        clippedTriangles.emplace_back(modelViewTriangle);
+        for(auto &plane : _clipPlanes){
+            while (!clippedTriangles.empty()){
+                 auto clipResult = plane.clip(clippedTriangles.back());
+                 clippedTriangles.pop_back();
+                 for(auto &clipTri : clipResult){
+                     tempBuffer.emplace_back(clipTri);
+                 }
+            }
+            clippedTriangles.swap(tempBuffer);
+        }
+
+        for(auto &clippedTriangle : clippedTriangles){
+            Triangle projected = clippedTriangle*_SP;
+            Triangle projected_normalized =
+                    Triangle(
+                            projected[0]/projected[0].w(),
+                            projected[1]/projected[1].w(),
+                            projected[2]/projected[2].w());
+
+            double dotColor = (0.1*dot)+0.9;
+
+            projected_normalized.setColor(
+                    sf::Color(t.color().r * dotColor,
+                              t.color().g * dotColor,
+                              t.color().b * dotColor));
+
+            _triangles.emplace_back(projected_normalized);
+        }
     }
 
     return this->_triangles;
@@ -62,7 +97,13 @@ std::vector<Triangle> Camera::sorted() {
 
     // Sort _tris from back to front
     // This is some replacement for Z-buffer
-    // TODO: implement (lesson 3)
+
+    std::sort(_triangles.begin(), _triangles.end(), [](Triangle &t1, Triangle &t2){
+        double z1 = t1[0].z() +t1[10].z()+t1[2].z();
+        double z2 = t2[0].z() +t2[10].z()+t2[2].z();
+
+        return z1 > z2;
+    });
 
     return _triangles;
 }
