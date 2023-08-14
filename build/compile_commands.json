@@ -1,0 +1,206 @@
+[
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/lesson1.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/lesson1.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/lesson1.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/lesson1.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/math/Vec4D.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/math/Vec4D.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/math/Vec4D.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/math/Vec4D.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/math/Vec3D.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/math/Vec3D.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/math/Vec3D.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/math/Vec3D.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/math/Vec2D.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/math/Vec2D.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/math/Vec2D.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/math/Vec2D.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/math/Matrix4x4.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/math/Matrix4x4.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/math/Matrix4x4.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/math/Matrix4x4.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/Triangle.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/Triangle.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/Triangle.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/Triangle.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/math/Plane.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/math/Plane.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/math/Plane.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/math/Plane.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/Mesh.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/Mesh.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/Mesh.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/Mesh.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/utils/Log.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/utils/Log.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/utils/Log.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/utils/Log.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/utils/Time.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/utils/Time.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/utils/Time.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/utils/Time.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/utils/Timer.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/utils/Timer.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/utils/Timer.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/utils/Timer.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/utils/ResourceManager.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/utils/ResourceManager.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/utils/ResourceManager.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/utils/ResourceManager.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/World.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/World.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/World.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/World.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/Camera.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/Camera.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/Camera.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/Camera.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/io/Screen.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/io/Screen.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/io/Screen.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/io/Screen.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/Engine.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/Engine.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/Engine.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/Engine.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/io/Keyboard.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/io/Keyboard.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/io/Keyboard.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/io/Keyboard.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/io/Mouse.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/io/Mouse.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/io/Mouse.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/io/Mouse.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/io/SoundController.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/io/SoundController.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/io/SoundController.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/io/SoundController.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/utils/ObjectController.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/utils/ObjectController.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/utils/ObjectController.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/utils/ObjectController.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/animation/Timeline.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/animation/Timeline.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/animation/Timeline.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/animation/Timeline.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/animation/Animation.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/animation/Animation.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/animation/Animation.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/animation/Animation.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/animation/Interpolation.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/animation/Interpolation.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/animation/Interpolation.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/animation/Interpolation.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/physics/RigidBody.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/physics/RigidBody.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/physics/RigidBody.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/physics/RigidBody.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/physics/HitBox.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/physics/HitBox.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/physics/HitBox.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/physics/HitBox.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/Object.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/Object.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/Object.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/Object.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/gui/Button.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/gui/Button.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/gui/Button.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/gui/Button.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/gui/Window.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/gui/Window.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/gui/Window.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/gui/Window.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/network/ClientUDP.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/network/ClientUDP.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/network/ClientUDP.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/network/ClientUDP.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/network/MsgType.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/network/MsgType.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/network/MsgType.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/network/MsgType.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/network/ReliableMsg.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/network/ReliableMsg.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/network/ReliableMsg.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/network/ReliableMsg.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/network/ServerUDP.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/network/ServerUDP.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/network/ServerUDP.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/network/ServerUDP.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/network/UDPConnection.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/network/UDPConnection.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/network/UDPConnection.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/network/UDPConnection.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Temp/learn_3dzavr-master/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/engine/network/UDPSocket.cpp.o -c /Users/pavel/Temp/learn_3dzavr-master/engine/network/UDPSocket.cpp",
+  "file": "/Users/pavel/Temp/learn_3dzavr-master/engine/network/UDPSocket.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/engine/network/UDPSocket.cpp.o"
+}
+]

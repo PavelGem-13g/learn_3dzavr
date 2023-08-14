@@ -1,0 +1,374 @@
+## This file contains all the build statements describing the
+# compilation DAG.
+
+# =============================================================================
+# Write statements declared in CMakeLists.txt:
+# 
+# Which is the root file.
+# =============================================================================
+
+# =============================================================================
+# Project: learn_3dzavr
+# Configurations: Debug
+# =============================================================================
+
+#############################################
+# Minimal version of Ninja required by this file
+
+ninja_required_version = 1.5
+
+
+#############################################
+# Set configuration variable for custom commands.
+
+CONFIGURATION = Debug
+# =============================================================================
+# Include auxiliary files.
+
+
+#############################################
+# Include rules file.
+
+include CMakeFiles/rules.ninja
+
+# =============================================================================
+
+#############################################
+# Logical path to working directory; prefix for absolute paths.
+
+cmake_ninja_workdir = /Users/pavel/Temp/learn_3dzavr-master/cmake-build-debug/
+# =============================================================================
+# Object build statements for EXECUTABLE target learn_3dzavr
+
+
+#############################################
+# Order-only phony target for learn_3dzavr
+
+build cmake_object_order_depends_target_learn_3dzavr: phony || CMakeFiles/learn_3dzavr.dir
+
+build CMakeFiles/learn_3dzavr.dir/lesson1.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/lesson1.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/lesson1.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir
+
+build CMakeFiles/learn_3dzavr.dir/engine/math/Vec4D.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/math/Vec4D.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/math/Vec4D.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/math
+
+build CMakeFiles/learn_3dzavr.dir/engine/math/Vec3D.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/math/Vec3D.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/math/Vec3D.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/math
+
+build CMakeFiles/learn_3dzavr.dir/engine/math/Vec2D.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/math/Vec2D.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/math/Vec2D.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/math
+
+build CMakeFiles/learn_3dzavr.dir/engine/math/Matrix4x4.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/math/Matrix4x4.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/math/Matrix4x4.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/math
+
+build CMakeFiles/learn_3dzavr.dir/engine/Triangle.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/Triangle.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/Triangle.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine
+
+build CMakeFiles/learn_3dzavr.dir/engine/math/Plane.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/math/Plane.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/math/Plane.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/math
+
+build CMakeFiles/learn_3dzavr.dir/engine/Mesh.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/Mesh.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/Mesh.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine
+
+build CMakeFiles/learn_3dzavr.dir/engine/utils/Log.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/utils/Log.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/utils/Log.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/utils
+
+build CMakeFiles/learn_3dzavr.dir/engine/utils/Time.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/utils/Time.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/utils/Time.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/utils
+
+build CMakeFiles/learn_3dzavr.dir/engine/utils/Timer.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/utils/Timer.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/utils/Timer.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/utils
+
+build CMakeFiles/learn_3dzavr.dir/engine/utils/ResourceManager.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/utils/ResourceManager.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/utils/ResourceManager.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/utils
+
+build CMakeFiles/learn_3dzavr.dir/engine/World.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/World.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/World.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine
+
+build CMakeFiles/learn_3dzavr.dir/engine/Camera.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/Camera.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/Camera.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine
+
+build CMakeFiles/learn_3dzavr.dir/engine/io/Screen.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/io/Screen.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/io/Screen.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/io
+
+build CMakeFiles/learn_3dzavr.dir/engine/Engine.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/Engine.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/Engine.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine
+
+build CMakeFiles/learn_3dzavr.dir/engine/io/Keyboard.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/io/Keyboard.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/io/Keyboard.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/io
+
+build CMakeFiles/learn_3dzavr.dir/engine/io/Mouse.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/io/Mouse.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/io/Mouse.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/io
+
+build CMakeFiles/learn_3dzavr.dir/engine/io/SoundController.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/io/SoundController.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/io/SoundController.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/io
+
+build CMakeFiles/learn_3dzavr.dir/engine/utils/ObjectController.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/utils/ObjectController.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/utils/ObjectController.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/utils
+
+build CMakeFiles/learn_3dzavr.dir/engine/animation/Timeline.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/animation/Timeline.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/animation/Timeline.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/animation
+
+build CMakeFiles/learn_3dzavr.dir/engine/animation/Animation.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/animation/Animation.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/animation/Animation.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/animation
+
+build CMakeFiles/learn_3dzavr.dir/engine/animation/Interpolation.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/animation/Interpolation.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/animation/Interpolation.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/animation
+
+build CMakeFiles/learn_3dzavr.dir/engine/physics/RigidBody.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/physics/RigidBody.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/physics/RigidBody.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/physics
+
+build CMakeFiles/learn_3dzavr.dir/engine/physics/HitBox.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/physics/HitBox.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/physics/HitBox.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/physics
+
+build CMakeFiles/learn_3dzavr.dir/engine/Object.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/Object.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/Object.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine
+
+build CMakeFiles/learn_3dzavr.dir/engine/gui/Button.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/gui/Button.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/gui/Button.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/gui
+
+build CMakeFiles/learn_3dzavr.dir/engine/gui/Window.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/gui/Window.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/gui/Window.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/gui
+
+build CMakeFiles/learn_3dzavr.dir/engine/network/ClientUDP.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/network/ClientUDP.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/network/ClientUDP.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/network
+
+build CMakeFiles/learn_3dzavr.dir/engine/network/MsgType.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/network/MsgType.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/network/MsgType.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/network
+
+build CMakeFiles/learn_3dzavr.dir/engine/network/ReliableMsg.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/network/ReliableMsg.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/network/ReliableMsg.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/network
+
+build CMakeFiles/learn_3dzavr.dir/engine/network/ServerUDP.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/network/ServerUDP.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/network/ServerUDP.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/network
+
+build CMakeFiles/learn_3dzavr.dir/engine/network/UDPConnection.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/network/UDPConnection.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/network/UDPConnection.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/network
+
+build CMakeFiles/learn_3dzavr.dir/engine/network/UDPSocket.cpp.o: CXX_COMPILER__learn_3dzavr_Debug /Users/pavel/Temp/learn_3dzavr-master/engine/network/UDPSocket.cpp || cmake_object_order_depends_target_learn_3dzavr
+  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/network/UDPSocket.cpp.o.d
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -std=gnu++20
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/network
+
+
+# =============================================================================
+# Link build statements for EXECUTABLE target learn_3dzavr
+
+
+#############################################
+# Link the executable ../learn_3dzavr
+
+build ../learn_3dzavr: CXX_EXECUTABLE_LINKER__learn_3dzavr_Debug CMakeFiles/learn_3dzavr.dir/lesson1.cpp.o CMakeFiles/learn_3dzavr.dir/engine/math/Vec4D.cpp.o CMakeFiles/learn_3dzavr.dir/engine/math/Vec3D.cpp.o CMakeFiles/learn_3dzavr.dir/engine/math/Vec2D.cpp.o CMakeFiles/learn_3dzavr.dir/engine/math/Matrix4x4.cpp.o CMakeFiles/learn_3dzavr.dir/engine/Triangle.cpp.o CMakeFiles/learn_3dzavr.dir/engine/math/Plane.cpp.o CMakeFiles/learn_3dzavr.dir/engine/Mesh.cpp.o CMakeFiles/learn_3dzavr.dir/engine/utils/Log.cpp.o CMakeFiles/learn_3dzavr.dir/engine/utils/Time.cpp.o CMakeFiles/learn_3dzavr.dir/engine/utils/Timer.cpp.o CMakeFiles/learn_3dzavr.dir/engine/utils/ResourceManager.cpp.o CMakeFiles/learn_3dzavr.dir/engine/World.cpp.o CMakeFiles/learn_3dzavr.dir/engine/Camera.cpp.o CMakeFiles/learn_3dzavr.dir/engine/io/Screen.cpp.o CMakeFiles/learn_3dzavr.dir/engine/Engine.cpp.o CMakeFiles/learn_3dzavr.dir/engine/io/Keyboard.cpp.o CMakeFiles/learn_3dzavr.dir/engine/io/Mouse.cpp.o CMakeFiles/learn_3dzavr.dir/engine/io/SoundController.cpp.o CMakeFiles/learn_3dzavr.dir/engine/utils/ObjectController.cpp.o CMakeFiles/learn_3dzavr.dir/engine/animation/Timeline.cpp.o CMakeFiles/learn_3dzavr.dir/engine/animation/Animation.cpp.o CMakeFiles/learn_3dzavr.dir/engine/animation/Interpolation.cpp.o CMakeFiles/learn_3dzavr.dir/engine/physics/RigidBody.cpp.o CMakeFiles/learn_3dzavr.dir/engine/physics/HitBox.cpp.o CMakeFiles/learn_3dzavr.dir/engine/Object.cpp.o CMakeFiles/learn_3dzavr.dir/engine/gui/Button.cpp.o CMakeFiles/learn_3dzavr.dir/engine/gui/Window.cpp.o CMakeFiles/learn_3dzavr.dir/engine/network/ClientUDP.cpp.o CMakeFiles/learn_3dzavr.dir/engine/network/MsgType.cpp.o CMakeFiles/learn_3dzavr.dir/engine/network/ReliableMsg.cpp.o CMakeFiles/learn_3dzavr.dir/engine/network/ServerUDP.cpp.o CMakeFiles/learn_3dzavr.dir/engine/network/UDPConnection.cpp.o CMakeFiles/learn_3dzavr.dir/engine/network/UDPSocket.cpp.o | /Library/Frameworks/./sfml-audio.framework/Versions/2.6.0/sfml-audio /Library/Frameworks/./sfml-network.framework/Versions/2.6.0/sfml-network /Library/Frameworks/./sfml-graphics.framework/Versions/2.6.0/sfml-graphics /Library/Frameworks/./sfml-window.framework/Versions/2.6.0/sfml-window /Library/Frameworks/./sfml-system.framework/Versions/2.6.0/sfml-system
+  FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
+  LINK_LIBRARIES = -Wl,-rpath,/Library/Frameworks/.  /Library/Frameworks/./sfml-audio.framework/Versions/2.6.0/sfml-audio  /Library/Frameworks/./sfml-network.framework/Versions/2.6.0/sfml-network  /Library/Frameworks/./sfml-graphics.framework/Versions/2.6.0/sfml-graphics  /Library/Frameworks/./sfml-window.framework/Versions/2.6.0/sfml-window  /Library/Frameworks/./sfml-system.framework/Versions/2.6.0/sfml-system  -framework OpenGL  -framework GLUT
+  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  POST_BUILD = :
+  PRE_LINK = :
+  TARGET_FILE = ../learn_3dzavr
+  TARGET_PDB = learn_3dzavr.dbg
+
+
+#############################################
+# Utility command for edit_cache
+
+build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/pavel/Temp/learn_3dzavr-master/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E echo No\ interactive\ CMake\ dialog\ available.
+  DESC = No interactive CMake dialog available...
+  restat = 1
+
+build edit_cache: phony CMakeFiles/edit_cache.util
+
+
+#############################################
+# Utility command for rebuild_cache
+
+build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
+  COMMAND = cd /Users/pavel/Temp/learn_3dzavr-master/cmake-build-debug && /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake --regenerate-during-build -S/Users/pavel/Temp/learn_3dzavr-master -B/Users/pavel/Temp/learn_3dzavr-master/cmake-build-debug
+  DESC = Running CMake to regenerate build system...
+  pool = console
+  restat = 1
+
+build rebuild_cache: phony CMakeFiles/rebuild_cache.util
+
+# =============================================================================
+# Target aliases.
+
+build learn_3dzavr: phony ../learn_3dzavr
+
+# =============================================================================
+# Folder targets.
+
+# =============================================================================
+
+#############################################
+# Folder: /Users/pavel/Temp/learn_3dzavr-master/cmake-build-debug
+
+build all: phony ../learn_3dzavr
+
+# =============================================================================
+# Built-in targets
+
+
+#############################################
+# Re-run CMake if any of its inputs changed.
+
+build build.ninja: RERUN_CMAKE | ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake /Library/Frameworks/SFML.framework/Resources/CMake/SFMLConfig.cmake /Library/Frameworks/SFML.framework/Resources/CMake/SFMLConfigDependencies.cmake /Library/Frameworks/SFML.framework/Resources/CMake/SFMLConfigVersion.cmake /Library/Frameworks/SFML.framework/Resources/CMake/SFMLSharedTargets-release.cmake /Library/Frameworks/SFML.framework/Resources/CMake/SFMLSharedTargets.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake
+  pool = console
+
+
+#############################################
+# A missing CMake input file is not an error.
+
+build ../CMakeLists.txt /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCXXInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeCommonLanguageInclude.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeGenericSystem.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeInitializeConfigs.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeLanguageInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInformation.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/CMakeSystemSpecificInitialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/CMakeCommonCompilerMacros.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Compiler/GNU.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-AppleClang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-C.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang-CXX.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Apple-Clang.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin-Initialize.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/Darwin.cmake /Applications/CLion.app/Contents/bin/cmake/mac/share/cmake-3.23/Modules/Platform/UnixPaths.cmake /Library/Frameworks/SFML.framework/Resources/CMake/SFMLConfig.cmake /Library/Frameworks/SFML.framework/Resources/CMake/SFMLConfigDependencies.cmake /Library/Frameworks/SFML.framework/Resources/CMake/SFMLConfigVersion.cmake /Library/Frameworks/SFML.framework/Resources/CMake/SFMLSharedTargets-release.cmake /Library/Frameworks/SFML.framework/Resources/CMake/SFMLSharedTargets.cmake CMakeCache.txt CMakeFiles/3.23.2/CMakeCCompiler.cmake CMakeFiles/3.23.2/CMakeCXXCompiler.cmake CMakeFiles/3.23.2/CMakeSystem.cmake: phony
+
+
+#############################################
+# Clean all the built files.
+
+build clean: CLEAN
+
+
+#############################################
+# Print all primary targets available.
+
+build help: HELP
+
+
+#############################################
+# Make the all target the default.
+
+default all

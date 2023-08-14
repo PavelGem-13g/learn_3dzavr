@@ -1,0 +1,16 @@
+/Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/Applications/CLion.app/Contents/bin/ninja/mac/ninja -G Ninja -S /Users/pavel/Temp/learn_3dzavr-master -B /Users/pavel/Temp/learn_3dzavr-master/cmake-build-debug
+CMake Error at CMakeLists.txt:102 (find_package):
+  Could not find a configuration file for package "SFML" that is compatible
+  with requested version "2.6.0".
+
+  The following configuration files were considered but not accepted:
+
+    /Library/Frameworks/SFML.framework/Resources/CMake/SFMLConfig.cmake, version: 2.5.1
+    /Library/Frameworks/SFML.framework/Versions/Current/Resources/CMake/SFMLConfig.cmake, version: 2.5.1
+    /Library/Frameworks/SFML.framework/Versions/2.5.1/Resources/CMake/SFMLConfig.cmake, version: 2.5.1
+
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/pavel/Temp/learn_3dzavr-master/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+See also "/Users/pavel/Temp/learn_3dzavr-master/cmake-build-debug/CMakeFiles/CMakeError.log".
