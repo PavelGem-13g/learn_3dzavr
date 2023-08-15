@@ -1,14 +1,24 @@
 cmake_minimum_required(VERSION 3.17)
-project(learn_3dzavr)
+project(learn_minecraft)
 
 set(CMAKE_CXX_STANDARD 20)
 
 set(CMAKE_RUNTIME_OUTPUT_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}")
 
 add_executable(${CMAKE_PROJECT_NAME}
-        # custom files:
-        #test_scene.cpp
-        lesson4.cpp
+        # game:
+        Source.cpp
+        Minecraft.cpp
+        Minecraft.h
+        Player.cpp
+        Player.h
+        Cube.cpp
+        Cube.h
+        PlayerController.cpp
+        PlayerController.h
+        Map.cpp
+        Map.h
+        MinecraftConsts.h
         # 3d engine:
         engine/Consts.h
         engine/math/Vec4D.h

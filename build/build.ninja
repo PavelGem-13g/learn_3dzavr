@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: learn_3dzavr
+# Project: learn_minecraft
 # Configurations: Debug
 # =============================================================================
 
@@ -41,269 +41,304 @@ include CMakeFiles/rules.ninja
 
 cmake_ninja_workdir = /Users/pavel/Git/learn_3dzavr/build/
 # =============================================================================
-# Object build statements for EXECUTABLE target learn_3dzavr
+# Object build statements for EXECUTABLE target learn_minecraft
 
 
 #############################################
-# Order-only phony target for learn_3dzavr
+# Order-only phony target for learn_minecraft
 
-build cmake_object_order_depends_target_learn_3dzavr: phony || CMakeFiles/learn_3dzavr.dir
+build cmake_object_order_depends_target_learn_minecraft: phony || CMakeFiles/learn_minecraft.dir
 
-build CMakeFiles/learn_3dzavr.dir/lesson4.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/lesson4.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/lesson4.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/Source.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/Source.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/Source.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir
 
-build CMakeFiles/learn_3dzavr.dir/engine/math/Vec4D.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/math/Vec4D.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/math/Vec4D.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/Minecraft.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/Minecraft.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/Minecraft.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/math
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir
 
-build CMakeFiles/learn_3dzavr.dir/engine/math/Vec3D.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/math/Vec3D.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/math/Vec3D.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/Player.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/Player.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/Player.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/math
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir
 
-build CMakeFiles/learn_3dzavr.dir/engine/math/Vec2D.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/math/Vec2D.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/math/Vec2D.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/Cube.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/Cube.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/Cube.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/math
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir
 
-build CMakeFiles/learn_3dzavr.dir/engine/math/Matrix4x4.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/math/Matrix4x4.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/math/Matrix4x4.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/PlayerController.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/PlayerController.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/PlayerController.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/math
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir
 
-build CMakeFiles/learn_3dzavr.dir/engine/Triangle.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/Triangle.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/Triangle.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/Map.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/Map.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/Map.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir
 
-build CMakeFiles/learn_3dzavr.dir/engine/math/Plane.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/math/Plane.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/math/Plane.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/engine/math/Vec4D.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/math/Vec4D.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/math/Vec4D.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/math
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine/math
 
-build CMakeFiles/learn_3dzavr.dir/engine/Mesh.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/Mesh.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/Mesh.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/engine/math/Vec3D.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/math/Vec3D.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/math/Vec3D.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine/math
 
-build CMakeFiles/learn_3dzavr.dir/engine/utils/Log.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/utils/Log.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/utils/Log.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/engine/math/Vec2D.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/math/Vec2D.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/math/Vec2D.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/utils
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine/math
 
-build CMakeFiles/learn_3dzavr.dir/engine/utils/Time.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/utils/Time.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/utils/Time.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/engine/math/Matrix4x4.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/math/Matrix4x4.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/math/Matrix4x4.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/utils
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine/math
 
-build CMakeFiles/learn_3dzavr.dir/engine/utils/Timer.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/utils/Timer.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/utils/Timer.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/engine/Triangle.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/Triangle.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/Triangle.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/utils
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine
 
-build CMakeFiles/learn_3dzavr.dir/engine/utils/ResourceManager.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/utils/ResourceManager.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/utils/ResourceManager.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/engine/math/Plane.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/math/Plane.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/math/Plane.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/utils
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine/math
 
-build CMakeFiles/learn_3dzavr.dir/engine/World.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/World.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/World.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/engine/Mesh.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/Mesh.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/Mesh.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine
 
-build CMakeFiles/learn_3dzavr.dir/engine/Camera.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/Camera.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/Camera.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/engine/utils/Log.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/utils/Log.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/utils/Log.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine/utils
 
-build CMakeFiles/learn_3dzavr.dir/engine/io/Screen.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/io/Screen.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/io/Screen.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/engine/utils/Time.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/utils/Time.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/utils/Time.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/io
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine/utils
 
-build CMakeFiles/learn_3dzavr.dir/engine/Engine.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/Engine.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/Engine.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/engine/utils/Timer.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/utils/Timer.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/utils/Timer.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine/utils
 
-build CMakeFiles/learn_3dzavr.dir/engine/io/Keyboard.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/io/Keyboard.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/io/Keyboard.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/engine/utils/ResourceManager.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/utils/ResourceManager.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/utils/ResourceManager.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/io
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine/utils
 
-build CMakeFiles/learn_3dzavr.dir/engine/io/Mouse.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/io/Mouse.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/io/Mouse.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/engine/World.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/World.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/World.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/io
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine
 
-build CMakeFiles/learn_3dzavr.dir/engine/io/SoundController.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/io/SoundController.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/io/SoundController.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/engine/Camera.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/Camera.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/Camera.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/io
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine
 
-build CMakeFiles/learn_3dzavr.dir/engine/utils/ObjectController.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/utils/ObjectController.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/utils/ObjectController.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/engine/io/Screen.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/io/Screen.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/io/Screen.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/utils
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine/io
 
-build CMakeFiles/learn_3dzavr.dir/engine/animation/Timeline.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/animation/Timeline.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/animation/Timeline.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/engine/Engine.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/Engine.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/Engine.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/animation
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine
 
-build CMakeFiles/learn_3dzavr.dir/engine/animation/Animation.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/animation/Animation.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/animation/Animation.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/engine/io/Keyboard.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/io/Keyboard.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/io/Keyboard.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/animation
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine/io
 
-build CMakeFiles/learn_3dzavr.dir/engine/animation/Interpolation.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/animation/Interpolation.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/animation/Interpolation.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/engine/io/Mouse.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/io/Mouse.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/io/Mouse.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/animation
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine/io
 
-build CMakeFiles/learn_3dzavr.dir/engine/physics/RigidBody.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/physics/RigidBody.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/physics/RigidBody.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/engine/io/SoundController.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/io/SoundController.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/io/SoundController.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/physics
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine/io
 
-build CMakeFiles/learn_3dzavr.dir/engine/physics/HitBox.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/physics/HitBox.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/physics/HitBox.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/engine/utils/ObjectController.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/utils/ObjectController.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/utils/ObjectController.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/physics
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine/utils
 
-build CMakeFiles/learn_3dzavr.dir/engine/Object.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/Object.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/Object.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/engine/animation/Timeline.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/animation/Timeline.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/animation/Timeline.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine/animation
 
-build CMakeFiles/learn_3dzavr.dir/engine/gui/Button.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/gui/Button.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/gui/Button.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/engine/animation/Animation.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/animation/Animation.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/animation/Animation.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/gui
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine/animation
 
-build CMakeFiles/learn_3dzavr.dir/engine/gui/Window.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/gui/Window.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/gui/Window.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/engine/animation/Interpolation.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/animation/Interpolation.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/animation/Interpolation.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/gui
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine/animation
 
-build CMakeFiles/learn_3dzavr.dir/engine/network/ClientUDP.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/network/ClientUDP.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/network/ClientUDP.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/engine/physics/RigidBody.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/physics/RigidBody.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/physics/RigidBody.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/network
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine/physics
 
-build CMakeFiles/learn_3dzavr.dir/engine/network/MsgType.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/network/MsgType.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/network/MsgType.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/engine/physics/HitBox.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/physics/HitBox.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/physics/HitBox.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/network
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine/physics
 
-build CMakeFiles/learn_3dzavr.dir/engine/network/ReliableMsg.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/network/ReliableMsg.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/network/ReliableMsg.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/engine/Object.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/Object.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/Object.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/network
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine
 
-build CMakeFiles/learn_3dzavr.dir/engine/network/ServerUDP.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/network/ServerUDP.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/network/ServerUDP.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/engine/gui/Button.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/gui/Button.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/gui/Button.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/network
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine/gui
 
-build CMakeFiles/learn_3dzavr.dir/engine/network/UDPConnection.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/network/UDPConnection.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/network/UDPConnection.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/engine/gui/Window.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/gui/Window.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/gui/Window.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/network
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine/gui
 
-build CMakeFiles/learn_3dzavr.dir/engine/network/UDPSocket.cpp.o: CXX_COMPILER__learn_3dzavr_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/network/UDPSocket.cpp || cmake_object_order_depends_target_learn_3dzavr
-  DEP_FILE = CMakeFiles/learn_3dzavr.dir/engine/network/UDPSocket.cpp.o.d
+build CMakeFiles/learn_minecraft.dir/engine/network/ClientUDP.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/network/ClientUDP.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/network/ClientUDP.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
   INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
-  OBJECT_FILE_DIR = CMakeFiles/learn_3dzavr.dir/engine/network
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine/network
+
+build CMakeFiles/learn_minecraft.dir/engine/network/MsgType.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/network/MsgType.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/network/MsgType.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine/network
+
+build CMakeFiles/learn_minecraft.dir/engine/network/ReliableMsg.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/network/ReliableMsg.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/network/ReliableMsg.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine/network
+
+build CMakeFiles/learn_minecraft.dir/engine/network/ServerUDP.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/network/ServerUDP.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/network/ServerUDP.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine/network
+
+build CMakeFiles/learn_minecraft.dir/engine/network/UDPConnection.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/network/UDPConnection.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/network/UDPConnection.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine/network
+
+build CMakeFiles/learn_minecraft.dir/engine/network/UDPSocket.cpp.o: CXX_COMPILER__learn_minecraft_unscanned_Debug /Users/pavel/Git/learn_3dzavr/engine/network/UDPSocket.cpp || cmake_object_order_depends_target_learn_minecraft
+  DEP_FILE = CMakeFiles/learn_minecraft.dir/engine/network/UDPSocket.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.
+  INCLUDES = -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
+  OBJECT_FILE_DIR = CMakeFiles/learn_minecraft.dir/engine/network
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target learn_3dzavr
+# Link build statements for EXECUTABLE target learn_minecraft
 
 
 #############################################
-# Link the executable /Users/pavel/Git/learn_3dzavr/learn_3dzavr
+# Link the executable /Users/pavel/Git/learn_3dzavr/learn_minecraft
 
-build /Users/pavel/Git/learn_3dzavr/learn_3dzavr: CXX_EXECUTABLE_LINKER__learn_3dzavr_Debug CMakeFiles/learn_3dzavr.dir/lesson4.cpp.o CMakeFiles/learn_3dzavr.dir/engine/math/Vec4D.cpp.o CMakeFiles/learn_3dzavr.dir/engine/math/Vec3D.cpp.o CMakeFiles/learn_3dzavr.dir/engine/math/Vec2D.cpp.o CMakeFiles/learn_3dzavr.dir/engine/math/Matrix4x4.cpp.o CMakeFiles/learn_3dzavr.dir/engine/Triangle.cpp.o CMakeFiles/learn_3dzavr.dir/engine/math/Plane.cpp.o CMakeFiles/learn_3dzavr.dir/engine/Mesh.cpp.o CMakeFiles/learn_3dzavr.dir/engine/utils/Log.cpp.o CMakeFiles/learn_3dzavr.dir/engine/utils/Time.cpp.o CMakeFiles/learn_3dzavr.dir/engine/utils/Timer.cpp.o CMakeFiles/learn_3dzavr.dir/engine/utils/ResourceManager.cpp.o CMakeFiles/learn_3dzavr.dir/engine/World.cpp.o CMakeFiles/learn_3dzavr.dir/engine/Camera.cpp.o CMakeFiles/learn_3dzavr.dir/engine/io/Screen.cpp.o CMakeFiles/learn_3dzavr.dir/engine/Engine.cpp.o CMakeFiles/learn_3dzavr.dir/engine/io/Keyboard.cpp.o CMakeFiles/learn_3dzavr.dir/engine/io/Mouse.cpp.o CMakeFiles/learn_3dzavr.dir/engine/io/SoundController.cpp.o CMakeFiles/learn_3dzavr.dir/engine/utils/ObjectController.cpp.o CMakeFiles/learn_3dzavr.dir/engine/animation/Timeline.cpp.o CMakeFiles/learn_3dzavr.dir/engine/animation/Animation.cpp.o CMakeFiles/learn_3dzavr.dir/engine/animation/Interpolation.cpp.o CMakeFiles/learn_3dzavr.dir/engine/physics/RigidBody.cpp.o CMakeFiles/learn_3dzavr.dir/engine/physics/HitBox.cpp.o CMakeFiles/learn_3dzavr.dir/engine/Object.cpp.o CMakeFiles/learn_3dzavr.dir/engine/gui/Button.cpp.o CMakeFiles/learn_3dzavr.dir/engine/gui/Window.cpp.o CMakeFiles/learn_3dzavr.dir/engine/network/ClientUDP.cpp.o CMakeFiles/learn_3dzavr.dir/engine/network/MsgType.cpp.o CMakeFiles/learn_3dzavr.dir/engine/network/ReliableMsg.cpp.o CMakeFiles/learn_3dzavr.dir/engine/network/ServerUDP.cpp.o CMakeFiles/learn_3dzavr.dir/engine/network/UDPConnection.cpp.o CMakeFiles/learn_3dzavr.dir/engine/network/UDPSocket.cpp.o | /Library/Frameworks/./sfml-audio.framework/Versions/2.5.1/sfml-audio /Library/Frameworks/./sfml-network.framework/Versions/2.5.1/sfml-network /Library/Frameworks/./sfml-graphics.framework/Versions/2.5.1/sfml-graphics /Library/Frameworks/./sfml-window.framework/Versions/2.5.1/sfml-window /Library/Frameworks/./sfml-system.framework/Versions/2.5.1/sfml-system
+build /Users/pavel/Git/learn_3dzavr/learn_minecraft: CXX_EXECUTABLE_LINKER__learn_minecraft_Debug CMakeFiles/learn_minecraft.dir/Source.cpp.o CMakeFiles/learn_minecraft.dir/Minecraft.cpp.o CMakeFiles/learn_minecraft.dir/Player.cpp.o CMakeFiles/learn_minecraft.dir/Cube.cpp.o CMakeFiles/learn_minecraft.dir/PlayerController.cpp.o CMakeFiles/learn_minecraft.dir/Map.cpp.o CMakeFiles/learn_minecraft.dir/engine/math/Vec4D.cpp.o CMakeFiles/learn_minecraft.dir/engine/math/Vec3D.cpp.o CMakeFiles/learn_minecraft.dir/engine/math/Vec2D.cpp.o CMakeFiles/learn_minecraft.dir/engine/math/Matrix4x4.cpp.o CMakeFiles/learn_minecraft.dir/engine/Triangle.cpp.o CMakeFiles/learn_minecraft.dir/engine/math/Plane.cpp.o CMakeFiles/learn_minecraft.dir/engine/Mesh.cpp.o CMakeFiles/learn_minecraft.dir/engine/utils/Log.cpp.o CMakeFiles/learn_minecraft.dir/engine/utils/Time.cpp.o CMakeFiles/learn_minecraft.dir/engine/utils/Timer.cpp.o CMakeFiles/learn_minecraft.dir/engine/utils/ResourceManager.cpp.o CMakeFiles/learn_minecraft.dir/engine/World.cpp.o CMakeFiles/learn_minecraft.dir/engine/Camera.cpp.o CMakeFiles/learn_minecraft.dir/engine/io/Screen.cpp.o CMakeFiles/learn_minecraft.dir/engine/Engine.cpp.o CMakeFiles/learn_minecraft.dir/engine/io/Keyboard.cpp.o CMakeFiles/learn_minecraft.dir/engine/io/Mouse.cpp.o CMakeFiles/learn_minecraft.dir/engine/io/SoundController.cpp.o CMakeFiles/learn_minecraft.dir/engine/utils/ObjectController.cpp.o CMakeFiles/learn_minecraft.dir/engine/animation/Timeline.cpp.o CMakeFiles/learn_minecraft.dir/engine/animation/Animation.cpp.o CMakeFiles/learn_minecraft.dir/engine/animation/Interpolation.cpp.o CMakeFiles/learn_minecraft.dir/engine/physics/RigidBody.cpp.o CMakeFiles/learn_minecraft.dir/engine/physics/HitBox.cpp.o CMakeFiles/learn_minecraft.dir/engine/Object.cpp.o CMakeFiles/learn_minecraft.dir/engine/gui/Button.cpp.o CMakeFiles/learn_minecraft.dir/engine/gui/Window.cpp.o CMakeFiles/learn_minecraft.dir/engine/network/ClientUDP.cpp.o CMakeFiles/learn_minecraft.dir/engine/network/MsgType.cpp.o CMakeFiles/learn_minecraft.dir/engine/network/ReliableMsg.cpp.o CMakeFiles/learn_minecraft.dir/engine/network/ServerUDP.cpp.o CMakeFiles/learn_minecraft.dir/engine/network/UDPConnection.cpp.o CMakeFiles/learn_minecraft.dir/engine/network/UDPSocket.cpp.o | /Library/Frameworks/./sfml-audio.framework/Versions/2.5.1/sfml-audio /Library/Frameworks/./sfml-network.framework/Versions/2.5.1/sfml-network /Library/Frameworks/./sfml-graphics.framework/Versions/2.5.1/sfml-graphics /Library/Frameworks/./sfml-window.framework/Versions/2.5.1/sfml-window /Library/Frameworks/./sfml-system.framework/Versions/2.5.1/sfml-system
   FLAGS = -g -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
   LINK_LIBRARIES = -Wl,-rpath,/Library/Frameworks/.  /Library/Frameworks/./sfml-audio.framework/Versions/2.5.1/sfml-audio  /Library/Frameworks/./sfml-network.framework/Versions/2.5.1/sfml-network  /Library/Frameworks/./sfml-graphics.framework/Versions/2.5.1/sfml-graphics  /Library/Frameworks/./sfml-window.framework/Versions/2.5.1/sfml-window  /Library/Frameworks/./sfml-system.framework/Versions/2.5.1/sfml-system  -framework OpenGL  -framework GLUT
   LINK_PATH = -F/Library/Frameworks/.
-  OBJECT_DIR = CMakeFiles/learn_3dzavr.dir
+  OBJECT_DIR = CMakeFiles/learn_minecraft.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_FILE = /Users/pavel/Git/learn_3dzavr/learn_3dzavr
-  TARGET_PDB = learn_3dzavr.dbg
+  TARGET_FILE = /Users/pavel/Git/learn_3dzavr/learn_minecraft
+  TARGET_PDB = learn_minecraft.dbg
 
 
 #############################################
@@ -332,7 +367,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 # Target aliases.
 
-build learn_3dzavr: phony /Users/pavel/Git/learn_3dzavr/learn_3dzavr
+build learn_minecraft: phony /Users/pavel/Git/learn_3dzavr/learn_minecraft
 
 # =============================================================================
 # Folder targets.
@@ -342,7 +377,7 @@ build learn_3dzavr: phony /Users/pavel/Git/learn_3dzavr/learn_3dzavr
 #############################################
 # Folder: /Users/pavel/Git/learn_3dzavr/build
 
-build all: phony /Users/pavel/Git/learn_3dzavr/learn_3dzavr
+build all: phony /Users/pavel/Git/learn_3dzavr/learn_minecraft
 
 # =============================================================================
 # Built-in targets
