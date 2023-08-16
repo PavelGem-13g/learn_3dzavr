@@ -5,13 +5,12 @@
 #include "Player.h"
 #include "engine/utils/Log.h"
 
-Player::Player() : RigidBody(ObjectNameTag("Player")) {
-    //setAcceleration(Vec3D(0, -MinecraftConsts::GRAVITY, 0));
+Player::Player() : RigidBody(Mesh::Cube(ObjectNameTag("Player"))) {
+    setAcceleration(Vec3D(0, -MinecraftConsts::GRAVITY, 0));
     setCollision(true);
     setColor({240, 168, 168});
-    setVisible(true);
-    scale(Vec3D(1.2, 1.9, 1.2)); 
-    //recalculateHitBox();
+    scale(Vec3D(1.2, 2.8, 1.2)); 
+    setVisible(false);
 }
 
 void Player::nextBlock() {

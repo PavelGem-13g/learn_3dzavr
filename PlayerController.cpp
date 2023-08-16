@@ -32,7 +32,7 @@ void PlayerController::update() {
     }
 
     // Jump
-        if (Keyboard::isKeyPressed(sf::Keyboard::Space) && _player->inCollision()){
+    if (Keyboard::isKeyPressed(sf::Keyboard::Space) && _player->inCollision()){
         _player->setVelocity(Vec3D(0, sqrt(2*MinecraftConsts::GRAVITY*MinecraftConsts::JUMP_HEIGHT), 0));
     }
 
@@ -43,20 +43,34 @@ void PlayerController::update() {
 
     // Vertical player rotation
     double rotationLeft = disp.y()*MinecraftConsts::MOUSE_SENSITIVITY;
+    double headAngle = camera->angleLeftUpLookAt().x();
+    if(headAngle + rotationLeft > M_PI/2){
+        rotationLeft = M_PI/2 - headAngle; 
+    } 
+
+    if(headAngle + rotationLeft < -M_PI/2){
+        rotationLeft = -M_PI/2 - headAngle; 
+    } 
+
     camera->rotateLeft(rotationLeft);
 
     // Change selected block
-    if (Keyboard::isKeyPressed(sf::Keyboard::Right)){
+    if (_keyboard->isKeyTapped(sf::Keyboard::Right)){
         _player->nextBlock();
         _updateCubeInHandCallBack(); 
     }
-    if (Keyboard::isKeyPressed(sf::Keyboard::Left)){
+    if (_keyboard->isKeyTapped(sf::Keyboard::Left)){
         _player->previousBlock();
         _updateCubeInHandCallBack(); 
     }
 
     // Add or remove block
-    // TODO: implement (lesson 3)
+    if(_mouse->isButtonTapped(sf::Mouse::Right)){
+        _addCubeCallBack();
+    }
+    if(_mouse->isButtonTapped(sf::Mouse::Left)){
+        _removeCubeCallBack();
+    }
 
     animateCameraMotion();
 }
@@ -67,7 +81,15 @@ void PlayerController::animateCameraMotion() {
     auto camera = _player->attached(ObjectNameTag("Camera"));
 
     // Camera movement during run
-    // TODO: implement (lesson 3)
+    if(_inRunning){
+        Timeline::addAnimation<ATranslate>(AnimationListTag("h"), camera, -camera->left(),  0.15, Animation::LoopOut::None, Animation::InterpolationType::Cos);
+        Timeline::addAnimation<AWait>(AnimationListTag("h"), 0); 
+        Timeline::addAnimation<ATranslate>(AnimationListTag("h"), camera, camera->left(),  0.15, Animation::LoopOut::None, Animation::InterpolationType::Cos);
+        Timeline::addAnimation<AWait>(AnimationListTag("h"), 0); 
+    } else if(!_inRunning && inRunning_old){
+        Timeline::deleteAnimationList(AnimationListTag("h")); 
+        Timeline::addAnimation<ATranslateToPoint>(camera, _player->position() + Vec3D(0, 0.8, 0)*4, 0.15);
+    }
 }
 
 // setting callbacks

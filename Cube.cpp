@@ -4,9 +4,9 @@
 
 #include "Cube.h"
 
-Cube::Cube(const ObjectNameTag& name, const Vec3D &pos, Cube::Type t) : RigidBody(ObjectNameTag(name)), type(t){
+Cube::Cube(const ObjectNameTag& name, const Vec3D &pos, Cube::Type t) : RigidBody(Mesh::Cube(name, 4)), type(t){
         setColor(Cube::cubeColor(t));
-        translate(pos);
+        translate(pos*4);
         setCollider(true);
 }
 
