@@ -26,6 +26,7 @@ public:
     void setSpawnPlayerCallBack(std::function<void(sf::Uint16)> spawn);
     void setRemovePlayerCallBack(std::function<void(sf::Uint16)> remove);
     void addPlayer(sf::Uint16 id, std::shared_ptr<RigidBody> player);
+    void removePlayer(sf::Uint16 id);
 };
 
 

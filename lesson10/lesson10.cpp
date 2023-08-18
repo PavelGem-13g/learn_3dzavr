@@ -1,4 +1,4 @@
-//
+ //
 // Created by Иван Ильин on 06.09.2022.
 //
 
@@ -19,8 +19,18 @@ private:
     bool is_camera_controlling = false;
 
     void initNetwork() {
-        // TODO: implement (lesson 10)
+        std::string clientIp = "127.0.0.1";
+        sf::Uint16 clientPort = 54000;
+        sf::Uint16 serverPort = 54000;
 
+        if(clientIp == sf::IpAddress::LocalHost){
+            server->start(serverPort);
+        }
+
+        client->setSpawnPlayerCallBack([this] (sf::Uint16 id) {spawnPlayer(id);  });
+        client->setRemovePlayerCallBack([this] (sf::Uint16 id) {removePlayer(id);  });
+
+        client->connect(clientIp, clientPort);
     }
 
 public:
@@ -63,13 +73,16 @@ public:
         }
     }
     void spawnPlayer(sf::Uint16 id) {
-        // TODO: implement (lesson 10)
+        std::string name = "Player_" + std::to_string(id);
 
+        auto newPlayer = std::make_shared<RigidBody>(ObjectNameTag(name), "obj/cube.obj");
 
+        world->addBody(newPlayer);
+        client->addPlayer(id, newPlayer);
     }
     void removePlayer(sf::Uint16 id) {
-        // TODO: implement (lesson 10)
-
+        world->removeBody(ObjectNameTag("Player_" + std::to_string(id)));
+        client->removePlayer(id); 
     }
 };
 

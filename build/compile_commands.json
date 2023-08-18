@@ -1,9 +1,21 @@
 [
 {
   "directory": "/Users/pavel/Git/learn_3dzavr/build",
-  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/lesson4.cpp.o -c /Users/pavel/Git/learn_3dzavr/lesson4.cpp",
-  "file": "/Users/pavel/Git/learn_3dzavr/lesson4.cpp",
-  "output": "CMakeFiles/learn_3dzavr.dir/lesson4.cpp.o"
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/lesson10/lesson10.cpp.o -c /Users/pavel/Git/learn_3dzavr/lesson10/lesson10.cpp",
+  "file": "/Users/pavel/Git/learn_3dzavr/lesson10/lesson10.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/lesson10/lesson10.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Git/learn_3dzavr/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/lesson10/Client.cpp.o -c /Users/pavel/Git/learn_3dzavr/lesson10/Client.cpp",
+  "file": "/Users/pavel/Git/learn_3dzavr/lesson10/Client.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/lesson10/Client.cpp.o"
+},
+{
+  "directory": "/Users/pavel/Git/learn_3dzavr/build",
+  "command": "/usr/bin/clang++ -I/usr/local/include -I/usr/local/Cellar/glew/2.1.0/include/GL -I/usr/local/Cellar/glfw/3.2.1/include/GLFW -iframework /Library/Frameworks -g -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -F/Library/Frameworks/.  -o CMakeFiles/learn_3dzavr.dir/lesson10/Server.cpp.o -c /Users/pavel/Git/learn_3dzavr/lesson10/Server.cpp",
+  "file": "/Users/pavel/Git/learn_3dzavr/lesson10/Server.cpp",
+  "output": "CMakeFiles/learn_3dzavr.dir/lesson10/Server.cpp.o"
 },
 {
   "directory": "/Users/pavel/Git/learn_3dzavr/build",
